@@ -11,15 +11,8 @@ export default function Header() {
         item.addEventListener("click", () => navbar.classList.remove("open"))
     })
     navbar.classList.toggle('open')
-
-    listItems.forEach(item => {
-      item.addEventListener("click", () => 
-       listItems.classList.remove('active')
-      )
-      listItems.classList.add('active')
-    })
-    
   }
+
     return (
       <>
           <header className="header flex items-center justify-between 

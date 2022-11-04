@@ -38,7 +38,7 @@ export default function Crew() {
 
               <article>
               <img src={images.png} alt={name} title={name}
-                    className="block mx-auto lg:mr-24 w-3/4 mb-10 lg:w-3/4"/>
+                    className="block mx-auto mt-12 lg:mr-24 w-3/4 lg:mb-10 lg:w-3/4 lg:my-auto"/>
               </article>
            </div>
         </section>

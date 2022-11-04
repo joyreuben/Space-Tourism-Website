@@ -40,7 +40,7 @@ export default function Technology() {
                     <picture>
                         <source media="(min-width: 768px)" srcSet={images.portrait}/>
                         <img src={images.landscape} alt={name} title={name}
-                        className="block mx-auto mb-10"/>
+                        className="block mx-auto lg:mb-10"/>
                     </picture>
                 </article>
            </div>
